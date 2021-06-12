@@ -250,7 +250,7 @@ a {
   height: 2px;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 550px) {
   .container {
     position: relative;
     -webkit-box-pack: justify;
