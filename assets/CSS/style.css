@@ -54,7 +54,7 @@
 body {
   font-family: "samsungone", "poppins", "Segoe UI", Tahoma, Geneva, Verdana,
     sans-serif;
-  background-image: url(/E-Resume/Images/Cornered-Stairs.svg);
+  background-image: url(assets/Images/Cornered-Stairs.svg);
   background-attachment: fixed;
   background-size: cover;
 }
