@@ -1,3 +1,13 @@
+/* Add support on mobile */
+var navList = document.getElementById("nav-lists");
+function Show() {
+navList.classList.add("showMenus");
+}
+
+function Hide(){
+navList.classList.remove("showMenus");
+}
+
 /*  service modal */
 
 const modalViews = document.querySelectorAll('.services-modal'),
