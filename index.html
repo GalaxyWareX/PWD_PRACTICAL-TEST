@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANG ZHI HENG | E-Resume</title>
+
+    <!--  Normalize.css makes browsers render all elements more consistently and in line with modern standards.
+      Link: https://necolas.github.io/normalize.css/ -->
+
+    <link rel="stylesheet" href="/E-Resume/CSS/normalize.css" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/E-Resume/CSS/style.css" />
+
+    <!-- Insert Icons -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!-- support for JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script src="/E-Resume/JS/javascript.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav>
+        <div class="container">
+          <div class="logo">
+            <a href="#" class="nav-logo" id="logo-btn">E-Resume</a>
+          </div>
+          <div class="navbar">
+            <div class="icon-bar" onclick="Show()">
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+
+            <ul id="nav-lists">
+              <li class="close"><span onclick="Hide()">×</span></li>
+              <li class="nav-item">
+                <a class="active nav-a" href="#home"> Home </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-a" href="#about">About </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-a" href="#skills">Skills </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-a" href="#services"> Services </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="content-container">
+      <div class="resume">
+        <div class="resume-left">
+          <section class="profile" id="profile">
+            <div class="profile-container section body_grid">
+              <div class="profile-data body-grid">
+                <img
+                  class="profile-picture"
+                  src="/E-Resume/Images/profile_picture.png"
+                  alt="picture of me"
+                />
+                <h1 class="profile-name">ANG ZHI HENG</h1>
+                <h3 class="profile-profession">Full Stack Web Developer</h3>
+              </div>
+              <div class="profile-address body-grid">
+                <span class="profile-info"
+                  ><i class="uil uil-estate profile-icon"></i> 1, Jalan Taylors,
+                  47500 Subang Jaya, Selangor.</span
+                ><br /><br />
+                <span class="profile-info"
+                  ><i class="uil uil-envelope profile-icon"></i>
+                  zhiheng.ang@sd.taylors.edu.my</span
+                ><br /><br />
+                <span class="profile-info"
+                  ><i class="uil uil-phone profile-icon"></i> 019-7318596</span
+                ><br /><br />
+              </div>
+            </div>
+          </section>
+          <section class="about-me section" id="about-me">
+            <h2 class="section-title" id="about">About Me</h2>
+            <p class="about-me_desc">
+              I am a Full Stack Web Developer which worked in various of
+              developments such as UI/UX and Server-side development. I am a
+              person that is responsible with my work. I have finished various
+              technical and higher studies at large universities. I have several
+              years of experience and achievements in the labor field.
+            </p>
+          </section>
+
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="education-container body-grid">
+              <div class="education-content">
+                <div class="my-educations">
+                  <span class="education-round"></span>
+                  <span class="education-line"></span>
+                </div>
+                <div class="education-info body-grid">
+                  <h3 class="education-title">
+                    DIPLOMA IN INFORMATION TECHNOLOGY
+                  </h3>
+                  <span class="education-school">Taylor's College</span>
+                  <span class="education-duration">2016 - 2018</span>
+                </div>
+              </div>
+
+              <div class="education-content">
+                <div class="my-educations">
+                  <span class="education-round"></span>
+                  <!--              <span class="education-line"></span> -->
+                </div>
+                <div class="education-info body-grid">
+                  <h3 class="education-title">BACHELOR OF COMPUTER SCIENCE</h3>
+                  <span class="education-school">Taylor's University</span>
+                  <span class="education-duration">2018 - 2021</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container body-grid">
+              <ul class="skills-list">
+                <li class="my-skills">
+                  <span class="skills-dash"></span>
+                  C++
+                </li>
+                <li class="my-skills">
+                  <span class="skills-dash"></span>
+                  Java
+                </li>
+                <li class="my-skills">
+                  <span class="skills-dash"></span>
+                  JQuery
+                </li>
+                <li class="my-skills">
+                  <span class="skills-dash"></span>
+                  ReactJS
+                </li>
+                <li class="my-skills">
+                  <span class="skills-dash"></span>
+                  MySQL
+                </li>
+              </ul>
+
+              <ul class="skills-list">
+                <li class="my-skills">
+                  <span class="skills-dash"></span>
+                  HTML
+                </li>
+                <li class="my-skills">
+                  <span class="skills-dash"></span>
+                  CSS
+                </li>
+                <li class="my-skills">
+                  <span class="skills-dash"></span>
+                  Javascript
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume-right">
+          <!-- Experiences -->
+          <section class="experience section" id="experiences">
+            <h2 class="section-title">Experience</h2>
+            <!-- Experience 1 -->
+            <div class="experience-container body-grid">
+              <div class="experience-content">
+                <div class="experience-design">
+                  <span class="experience-round"></span>
+                  <span class="experience-line"></span>
+                </div>
+                <div class="my-experiences body-grid">
+                  <h3 class="experience-title">Front End Developer</h3>
+                  <span class="experience-time-n-company"
+                    >From 2018 - 2020 &nbsp; | &nbsp; WareXSolution
+                    Technology</span
+                  >
+                  <p class="experience-desc">
+                    I worked as a front end developer to design web interface of
+                    the clients website using multiple programming and coding
+                    language such as ReactJS, Bootstrap, GIT, HTML, CSS and
+                    Javascript. I have ulilized all my skills and experiences to
+                    improve my productivity.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Experience 2 -->
+              <div class="experience-content body-grid">
+                <div class="experience-design">
+                  <span class="experience-round"></span>
+                  <!--       <span class="experience-line"></span> -->
+                </div>
+                <div class="my-experiences body-grid">
+                  <h3 class="experience-title">Full Stack Web Developer</h3>
+                  <span class="experience-time-n-company"
+                    >From 2020 - Present &nbsp; | &nbsp; WareXSolution
+                    Technology</span
+                  >
+                  <p class="experience-desc">
+                    I worked as a full stack web developer which was worked for
+                    front-end and also the back-end. I am able to write clean,
+                    maintainable and efficient code.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- SERVICES -->
+
+          <section class="services section" id="services">
+            <h2 class="section-title">Services</h2>
+            <span class="section-subtitle">What i can do</span>
+            <div class="services-container body-grid">
+              <!-- Service 1 -->
+              <div class="services-content">
+                <div>
+                  <i class="uil uil-arrow services-icon"></i>
+                  <h3 class="services-title">
+                    Web <br />
+                    Development
+                  </h3>
+                </div>
+                <span class="button services-button button--link button--flex"
+                  >View More
+                  <i class="uil uil-arrow-right button-icon"></i>
+                </span>
+                <div class="services-modal">
+                  <div class="services-modal--content">
+                    <h4 class="services-modal--title">
+                      Web <br />
+                      Development
+                    </h4>
+                    <i class="uil uil-times services-modal--close"></i>
+
+                    <ul class="services-modal--list body-grid">
+                      <li class="services-modal--service">
+                        <i
+                          class="uil uil-check-circle services-modal--icon"
+                        ></i>
+                        <p>Develop Web Applications.</p>
+                      </li>
+
+                      <li class="services-modal--service">
+                        <i
+                          class="uil uil-check-circle services-modal--icon"
+                        ></i>
+                        <p>
+                          Developing, maintaining and enhancing technical
+                          documentation.
+                        </p>
+                      </li>
+
+                      <li class="services-modal--service">
+                        <i
+                          class="uil uil-check-circle services-modal--icon"
+                        ></i>
+                        <p>
+                          Contributing in all phases of the development
+                          lifecycle.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Service 2 -->
+              <div class="services-content">
+                <div>
+                  <i class="uil uil-browser services-icon"></i>
+                  <h3 class="services-title">
+                    Front-end <br />
+                    Development
+                  </h3>
+                </div>
+                <span class="button services-button button--link button--flex"
+                  >View More
+                  <i class="uil uil-arrow-right button-icon"></i>
+                </span>
+                <div class="services-modal">
+                  <div class="services-modal--content">
+                    <h4 class="services-modal--title">
+                      Front-end <br />
+                      Development
+                    </h4>
+                    <i class="uil uil-times services-modal--close"></i>
+
+                    <ul class="services-modal--list body-grid">
+                      <li class="services-modal--service">
+                        <i
+                          class="uil uil-check-circle services-modal--icon"
+                        ></i>
+                        <p>Develop new user-facing features.</p>
+                      </li>
+
+                      <li class="services-modal--service">
+                        <i
+                          class="uil uil-check-circle services-modal--icon"
+                        ></i>
+                        <p>Ensure the technical feasibility of UI/UX design.</p>
+                      </li>
+
+                      <li class="services-modal--service">
+                        <i
+                          class="uil uil-check-circle services-modal--icon"
+                        ></i>
+                        <p>
+                          Optimize application for maximum speed and
+                          scalability.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Service 3 -->
+
+              <div class="services-content">
+                <div>
+                  <i class="uil uil-server services-icon"></i>
+                  <h3 class="services-title">
+                    Back-end <br />
+                    Development
+                  </h3>
+                </div>
+                <span class="button services-button button--link button--flex"
+                  >View More
+                  <i class="uil uil-arrow-right button-icon"></i>
+                </span>
+                <div class="services-modal">
+                  <div class="services-modal--content">
+                    <h4 class="services-modal--title">
+                      Back-end <br />
+                      Development
+                    </h4>
+                    <i class="uil uil-times services-modal--close"></i>
+
+                    <ul class="services-modal--list body-grid">
+                      <li class="services-modal--service">
+                        <i
+                          class="uil uil-check-circle services-modal--icon"
+                        ></i>
+                        <p>
+                          Design, develop, test, debug and maintain web and
+                          application-based solutions.
+                        </p>
+                      </li>
+
+                      <li class="services-modal--service">
+                        <i
+                          class="uil uil-check-circle services-modal--icon"
+                        ></i>
+                        <p>
+                          Participate in all phases of the software development
+                          life cycle.
+                        </p>
+                      </li>
+
+                      <li class="services-modal--service">
+                        <i
+                          class="uil uil-check-circle services-modal--icon"
+                        ></i>
+                        <p>
+                          Utilize automated software or tools on workflow
+                          maintenance.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Interest -->
+          <section class="interests section">
+            <h2 class="section-title">Interests</h2>
+
+            <div class="interests-container body-grid">
+              <div class="interests-content">
+                <i class="uil uil-boombox interests-icon"></i>
+                <span class="interest-name">Subwoofers</span>
+              </div>
+
+              <div class="interests-content">
+                <i class="uil uil-music interests-icon"></i>
+                <span class="interest-name">Sound Engineering</span>
+              </div>
+
+              <div class="interests-content">
+                <i class="uil uil-streering interests-icon"></i>
+                <span class="interest-name">Driving</span>
+              </div>
+
+              <div class="interests-content">
+                <i class="uil uil-arrow interests-icon"></i>
+                <span class="interest-name">Programming</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <script src="/E-Resume/JS/javascript_defer.js" defer></script>
+  </body>
+</html>
