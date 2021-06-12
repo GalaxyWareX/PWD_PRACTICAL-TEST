@@ -2,9 +2,9 @@
 
 @font-face {
   font-family: "poppins";
-  src: url("assets/Fonts/poppins/poppins-medium-webfont.woff2")
+  src: url("../assets/Fonts/poppins/poppins-medium-webfont.woff2")
       format("woff2"),
-    url("assets/Fonts/poppins/poppins-medium-webfont.woff") format("woff");
+    url("../assets/Fonts/poppins/poppins-medium-webfont.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: fallback;
@@ -12,9 +12,9 @@
 
 @font-face {
   font-family: "poppins";
-  src: url("assets/Fonts/poppins/poppins-regular-webfont.woff2")
+  src: url("../assets/Fonts/poppins/poppins-regular-webfont.woff2")
       format("woff2"),
-    url("assets/Fonts/poppins/poppins-regular-webfont.woff") format("woff");
+    url("../assets/Fonts/poppins/poppins-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: fallback;
@@ -22,9 +22,9 @@
 
 @font-face {
   font-family: "poppins";
-  src: url("assets/Fonts/poppins/poppins-semibold-webfont.woff2")
+  src: url("../assets/Fonts/poppins/poppins-semibold-webfont.woff2")
       format("woff2"),
-    url("assets/Fonts/poppins/poppins-semibold-webfont.woff") format("woff");
+    url("../assets/Fonts/poppins/poppins-semibold-webfont.woff") format("woff");
   font-weight: bolder;
   font-style: normal;
   font-display: fallback;
@@ -32,9 +32,9 @@
 
 @font-face {
   font-family: "samsungone";
-  src: url("assets/Fonts/samsungone/samsungone-400-webfont.woff2")
+  src: url("../assets/Fonts/samsungone/samsungone-400-webfont.woff2")
       format("woff2"),
-    url("assets/Fonts/samsungone/samsungone-400-webfont.woff") format("woff");
+    url("../assets/Fonts/samsungone/samsungone-400-webfont.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: fallback;
@@ -42,9 +42,9 @@
 
 @font-face {
   font-family: "samsungone";
-  src: url("assets/Fonts/samsungone/samsungone-700-webfont.woff2")
+  src: url("../assets/Fonts/samsungone/samsungone-700-webfont.woff2")
       format("woff2"),
-    url("assets/Fonts/samsungone/samsungone-700-webfont.woff") format("woff");
+    url("../assets/Fonts/samsungone/samsungone-700-webfont.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: fallback;
@@ -54,7 +54,7 @@
 body {
   font-family: "samsungone", "poppins", "Segoe UI", Tahoma, Geneva, Verdana,
     sans-serif;
-  background-image: url(assets/Images/Cornered-Stairs.svg);
+  background-image: url(../assets/Images/Cornered-Stairs.svg);
   background-attachment: fixed;
   background-size: cover;
 }
